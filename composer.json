@@ -1,0 +1,21 @@
+{
+    "name": "dustin/symfony_issue_51698",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "SymfonyIssue51698\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dustin Kyle Scott",
+            "email": "edge.fang@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection": "^4.4.49"
+    },
+    "scripts": {
+        "application": "php -f src/main.php"
+    }
+}
